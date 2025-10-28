@@ -38,3 +38,5 @@ Rebuild started at 4:00 AM...
 3>(compiling source file '../../JuceLibraryCode/include_juce_audio_plugin_client_VST3.cpp')
 3>Done building project "VST1toVST3_VST3.vcxproj" -- FAILED.
 ========== Rebuild All: 2 succeeded, 1 failed, 0 skipped ==========
+---
+Need to use Juce 8 version font forms need to fix. The VST2 vs VST3 conflict is something I need to look ino more changing c++ preprocessor didn't fix it.
