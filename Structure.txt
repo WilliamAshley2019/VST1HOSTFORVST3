@@ -1,0 +1,12 @@
+// VST1Bridge - 64-bit VST3 Wrapper for 32-bit VST1 Plugins
+// JUCE 8.0.9 Project
+// 
+// PROJECT STRUCTURE:
+// VST1Bridge/
+//   ├── Source/
+//   │   ├── PluginProcessor.h/cpp      (64-bit VST3 container)
+//   │   ├── PluginEditor.h/cpp         (UI for plugin selection)
+//   │   ├── BridgeProtocol.h           (Shared protocol definitions)
+//   │   └── Bridge32/
+//   │       └── Bridge32Main.cpp       (32-bit bridge executable)
+//   └── VST1Bridge.jucer
